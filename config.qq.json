@@ -1,0 +1,8 @@
+{
+  "_填写说明": "QQ 平台专属配置：onebot_ws_url 填 OneBot WebSocket 地址；onebot_token 已迁移到 .env（管理台·密钥管理 一键维护）；allowed_user_ids / owner_user_ids 填你的 QQ 号；login_mode 可选 framework（本机官方 QQ + NapCat.Framework，推荐）/ shell（NapCat 无头），留空默认 shell。",
+  "onebot_ws_url": "ws://127.0.0.1:3001",
+  "onebot_token": "",
+  "login_mode": "",
+  "allowed_user_ids": [],
+  "owner_user_ids": []
+}

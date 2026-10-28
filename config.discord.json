@@ -1,0 +1,10 @@
+{
+  "_填写说明": "Discord 平台专属配置：discord.token 已迁移到 .env（管理台·密钥管理 一键维护）；discord.proxy 填代理；allowed_user_ids / owner_user_ids 填你的 Discord 用户 ID。",
+  "discord": {
+    "token": "",
+    "reply_to_mention_only": true,
+    "proxy": ""
+  },
+  "allowed_user_ids": [],
+  "owner_user_ids": []
+}

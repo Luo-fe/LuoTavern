@@ -1,0 +1,26 @@
+# 凭据
+.env
+config.local.json
+deepdiscord_vault.json
+luotavern_vault.json
+build/
+dist/
+*.spec
+
+# 数据（聊天记录、记忆、剧情、世界书、角色卡等）
+data/
+.trash*/
+character_backup/
+character/
+book/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 系统
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,14 @@
+websocket-client>=1.7,<2
+requests>=2.31,<3
+fastembed>=0.8,<1
+discord.py>=2.3,<3
+qrcode[pil]>=8,<9
+
+# 桌面管理台：python desktop_app.py 与构建 EXE 都需要（pywebview 会带出 pythonnet/clr_loader）
+pywebview>=4.4,<6
+# 构建 EXE 额外需要（build_exe.py 会自动安装）：pyinstaller、pillow
+
+# 可选：TencentDB-Agent-Memory 记忆后端（memory.backend=hybrid/tencentdb 时）
+# 官方 SDK 未上 PyPI：从仓库 sdk/memory-core/python 构建 wheel 后安装，
+# 或使用 HTTP 传输（无需安装 SDK）。详见 docs/tencentdb-agent-memory-research.md
+# tencentdb-agent-memory-sdk-python
