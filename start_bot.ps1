@@ -54,7 +54,7 @@ if ($platform -ne 'discord' -and -not (Test-Port 3001)) {
         if (Test-Path -LiteralPath (Join-Path $alt 'napimain.exe')) { $fw = $alt }
     }
     $fwReady = Test-Path -LiteralPath (Join-Path $fw 'napimain.exe')
-    if (-not $qqMode) { $qqMode = if ($fwReady) { 'framework' } else { 'shell' } }
+    if (-not $qqMode) { $qqMode = 'shell' }
 
     if ($qqMode -eq 'framework') {
         if (-not $fwReady) {
