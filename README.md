@@ -56,7 +56,7 @@ LuoTavern（洛·酒馆）是一个面向**长期角色扮演**的机器人框�
 到 [Releases](https://github.com/Luo-fe/LuoTavern/releases) 下载：
 
 - `LuoTavern-2.1.0-win64.zip`：**推荐**，解压即用的整合包（含管理台 EXE 与源码）
-- 或单独下载 `LuoTavern管理台.exe`，放进本项目根目录
+- 或单独下载 `LuoTavern.exe`（管理台；GitHub 会把中文文件名显示为 LuoTavern.exe），放进本项目根目录
 
 解压到任意目录（建议路径不要带特殊符号），目录里应能看到 `bot.py`、
 `config.json` 和 `LuoTavern管理台.exe`。
